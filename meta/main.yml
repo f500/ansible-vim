@@ -9,6 +9,8 @@ galaxy_info:
   - name: Debian
     versions:
       - wheezy
+      - jessie
+      - stretch
   categories:
     - system
 dependencies: []
