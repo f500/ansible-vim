@@ -18,7 +18,7 @@ Example Playbook
 License
 -------
 
-LGPL.
+LGPL-3.0
 
 This role includes a module called **update_alternatives** written by Philipp Grau, released
 under the GPL license.
