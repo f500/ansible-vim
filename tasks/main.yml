@@ -7,5 +7,5 @@
   copy: src=vimrc dest=/etc/vim/vimrc owner=root group=root mode=0644
 
 - name: set vim alternatives
-  update_alternatives: "link={{ item }} target=/usr/bin/vim.basic"
+  alternatives: "name={{ item }} path=/usr/bin/vim.basic"
   with_items: [editor, ex, rview, rvim, vi, view, vim, vimdiff]

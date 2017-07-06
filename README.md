@@ -6,7 +6,7 @@ Install Vim, set vimrc and use update-alternatives to add vim
 Requirements
 ------------
 
-Debian Wheezy with the package python-pycurl and python-software-properties installed.
+Debian Wheezy/Jessie/Stretch with the package python-pycurl and python-software-properties installed.
 
 Example Playbook
 -------------------------
@@ -18,7 +18,7 @@ Example Playbook
 License
 -------
 
-LGPL.
+LGPL-3.0
 
 This role includes a module called **update_alternatives** written by Philipp Grau, released
 under the GPL license.
