@@ -1,0 +1,2 @@
+vim_vimrc_local_settings:
+  - 'set mouse=""'

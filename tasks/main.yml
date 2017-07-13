@@ -6,6 +6,11 @@
 - name: write vimrc
   copy: src=vimrc dest=/etc/vim/vimrc owner=root group=root mode=0644
 
+- name: write local vimrc overrides
+  template:
+    src: vimrc.local.j2
+    dest: "/etc/vim/vimrc.local"
+
 - name: set vim alternatives
   alternatives: "name={{ item }} path=/usr/bin/vim.basic"
   with_items: [editor, ex, rview, rvim, vi, view, vim, vimdiff]
