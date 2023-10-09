@@ -11,6 +11,6 @@ galaxy_info:
     versions:
       - bullseye
       - bookworm
-  categories:
+  galaxy_tags:
     - system
 dependencies: []
